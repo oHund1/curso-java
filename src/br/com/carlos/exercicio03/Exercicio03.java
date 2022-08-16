@@ -8,13 +8,16 @@ public class Exercicio03 {
 
         System.out.println("Ola!");
         System.out.print("Digite um numero: ");
-        int n1 = Integer.parseInt(leitor.nextLine());
+        int n1 = leitor.nextInt();
+
 
         System.out.print("Digite mais um numero: ");
-        int n2 = Integer.parseInt(leitor.nextLine());
+        int n2 = leitor.nextInt();
         int soma = n1 + n2;
 
         System.out.println("A soma dos numeros e: " + soma);
+
+        leitor.close();
 
     }
 

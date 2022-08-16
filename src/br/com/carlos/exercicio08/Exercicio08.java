@@ -9,12 +9,14 @@ public class Exercicio08 {
 
         System.out.println("Ola!");
         System.out.print("Digite seu salario por hora: ");
-        double salario = Double.parseDouble(String.valueOf(leitor.nextLine()));
+        double salario = leitor.nextDouble();
 
         System.out.print("Digite as horas trabalhadas no mes: ");
-        double horas = Double.parseDouble(String.valueOf(leitor.nextLine()));
+        double horas = leitor.nextDouble();
 
-        var salariomes =  salario*horas;
-        System.out.println("Seu salario mensal e de " + salariomes +" reais.");
+        double salarioMes =  salario * horas;
+        System.out.println("Seu salario mensal e de " + salarioMes +" reais.");
+
+        leitor.close();
     }
 }

@@ -23,5 +23,7 @@ public class Exercicio02 {
         int idade = leitor.nextInt();
         System.out.println("Sua idade é: " + idade);
 
+        leitor.close();
+
     }
 }

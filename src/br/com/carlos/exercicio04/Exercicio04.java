@@ -8,19 +8,21 @@ public class Exercicio04 {
 
         System.out.println("Ola!");
         System.out.print("Digite a nota referente ao primeiro bimestre: ");
-        int n1 = Integer.parseInt(leitor.nextLine());
+        int n1 = leitor.nextInt();
 
         System.out.print("Digite a nota referente ao segundo bimestre: ");
-        int n2 = Integer.parseInt(leitor.nextLine());
+        int n2 = leitor.nextInt();
 
         System.out.print("Digite a nota referente ao terceiro bimestre: ");
-        int n3 = Integer.parseInt(leitor.nextLine());
+        int n3 = leitor.nextInt();
 
         System.out.print("Digite a nota referente ao quarto bimestre: ");
-        int n4 = Integer.parseInt(leitor.nextLine());
+        int n4 = leitor.nextInt();
 
-        int media = (n1 + n2 + n3 + n4)/4;
+        double media = (n1 + n2 + n3 + n4)/4.0;
 
         System.out.println("A media bimestral foi de: " + media);
+
+        leitor.close();
     }
 }

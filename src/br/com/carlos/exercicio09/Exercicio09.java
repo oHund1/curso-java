@@ -8,10 +8,11 @@ public class Exercicio09 {
 
         System.out.println("Ola!");
         System.out.print("Digite a temperatura desejada para a conversao: ");
-        double tempf = Double.parseDouble(String.valueOf(leitor.nextLine()));
-        double tempc = 5*((tempf-32)/9);
+        double temperaturaFahrenheit = leitor.nextDouble();
+        double temperaturaCelsius = 5 * ((temperaturaFahrenheit - 32) / 9);
 
-        System.out.println("A temperatura " + tempf + " graus Fahrenheit e igual a " + tempc + " graus Celsius.");
+        System.out.println("A temperatura " + temperaturaFahrenheit + " graus Fahrenheit e igual a " + temperaturaCelsius + " graus Celsius.");
 
+        leitor.close();
     }
 }

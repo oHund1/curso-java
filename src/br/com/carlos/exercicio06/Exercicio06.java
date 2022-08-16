@@ -8,10 +8,11 @@ public class Exercicio06 {
 
         System.out.println("Ola!");
         System.out.print("Digite o raio da circunferencia: ");
-        double raio = Double.parseDouble(String.valueOf(leitor.nextDouble()));
-        final double pi = 3.1415;
-        double area = pi*raio*raio;
+        double raio = leitor.nextDouble();
+        double area = Math.PI * Math.pow(raio, 2);
         System.out.println("Area da circunferencia e de " + area);
+
+        leitor.close();
 
     }
 }
