@@ -18,5 +18,7 @@ public class Exercicio16 {
 
         System.out.println("A quantidade de latas necessarias sera de: " + quantidadeLatas);
         System.out.println("O preco da compra sera de: " + precoFinal + " reais.");
+
+        leitor.close();
     }
 }

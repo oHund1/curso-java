@@ -17,5 +17,7 @@ public class Exercicio14 {
 
             System.out.println("O execesso pescado foi de " + excesso + " kg e a multa a pagar é de: " + multa + " reais.");
 
+            leitor.close();
+
         }
 }
