@@ -7,7 +7,7 @@ public class Exercicio14 {
 
             Scanner leitor = new Scanner(System.in);
 
-            System.out.println("Ola");
+            System.out.println("Ola!");
             System.out.print("Digite o peso pescado: ");
 
             double pescado = leitor.nextDouble();
