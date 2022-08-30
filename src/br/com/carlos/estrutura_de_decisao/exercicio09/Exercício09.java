@@ -1,9 +1,9 @@
-package br.com.carlos.estrutura_de_decisao.exercicio07;
+package br.com.carlos.estrutura_de_decisao.exercicio09;
 //Faça um Programa que leia três números e mostre-os em ordem decrescente.
 
 import java.util.Scanner;
 
-public class Exercício07 {
+public class Exercício09 {
     public static void main(String[] args) {
         Scanner leitor = new Scanner(System.in);
 

@@ -1,10 +1,10 @@
-package br.com.carlos.estrutura_de_decisao.exercicio08;
+package br.com.carlos.estrutura_de_decisao.exercicio10;
 
 //Faça um Programa que pergunte em que turno você estuda. Peça para digitar M-matutino ou V-Vespertino ou N- Noturno. Imprima a mensagem "Bom Dia!", "Boa Tarde!" ou "Boa Noite!" ou "Valor Inválido!", conforme o caso.
 
 import java.util.Scanner;
 
-public class Exercicio08 {
+public class Exercicio10 {
     public static void main(String[] args) {
         Scanner leitor = new Scanner(System.in);
 
