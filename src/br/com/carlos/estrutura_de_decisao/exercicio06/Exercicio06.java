@@ -1,9 +1,9 @@
-package br.com.carlos.estrutura_de_decisao.exercicio06;
 
 //Faça um Programa que leia três números e mostre o maior deles.
 
-import java.util.Scanner;
+package br.com.carlos.estrutura_de_decisao.exercicio06;
 
+import java.util.Scanner;
 public class Exercicio06 {
     public static void main(String[] args) {
         Scanner leitor = new Scanner(System.in);
@@ -25,6 +25,8 @@ public class Exercicio06 {
         } else {
             System.out.println("O numero " + n3 + " e o maior numero digitado.");
         }
+
+        leitor.close();
     }
 }
 

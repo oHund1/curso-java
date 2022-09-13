@@ -1,7 +1,8 @@
-package br.com.carlos.estrutura_de_decisao.exercicio13;
 
 //Faça um Programa que leia um número e exiba o dia correspondente da semana. (1-Domingo, 2- Segunda, etc.), se digitar
 // outro valor deve aparecer valor inválido.
+
+package br.com.carlos.estrutura_de_decisao.exercicio13;
 
 import java.util.Scanner;
 

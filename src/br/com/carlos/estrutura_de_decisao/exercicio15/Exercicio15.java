@@ -1,4 +1,3 @@
-package br.com.carlos.estrutura_de_decisao.exercicio15;
 
 //Faça um Programa que peça os 3 lados de um triângulo. O programa deverá informar se os valores podem ser um triângulo.
 // Indique, caso os lados formem um triângulo, se o mesmo é: equilátero, isósceles ou escaleno.
@@ -8,8 +7,7 @@ package br.com.carlos.estrutura_de_decisao.exercicio15;
 //Triângulo Isósceles: quaisquer dois lados iguais;
 //Triângulo Escaleno: três lados diferentes;
 
-import java.util.Scanner;
-
+package br.com.carlos.estrutura_de_decisao.exercicio15;
 public class Exercicio15 {
     public static void main(String[] args) {
         System.out.println(obterTipoTriangulo(7,7,7));

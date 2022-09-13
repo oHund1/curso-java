@@ -1,6 +1,7 @@
-package br.com.carlos.estrutura_de_decisao.exercicio02;
 
 //Faça um Programa que peça um valor e mostre na tela se o valor é positivo ou negativo.
+
+package br.com.carlos.estrutura_de_decisao.exercicio02;
 
 import java.util.Scanner;
 

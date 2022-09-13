@@ -1,6 +1,7 @@
-package br.com.carlos.estrutura_de_decisao.exercicio01;
 
 //Faça um Programa que peça dois números e imprima o maior deles.
+
+package br.com.carlos.estrutura_de_decisao.exercicio01;
 
 import java.util.Scanner;
 public class Exercicio01 {

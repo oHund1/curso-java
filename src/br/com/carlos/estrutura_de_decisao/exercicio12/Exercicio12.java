@@ -1,8 +1,8 @@
-package br.com.carlos.estrutura_de_decisao.exercicio12;
 
 //Faça um programa para o cálculo de uma folha de pagamento, sabendo que os descontos são do Imposto de Renda, que
-// depende do salário bruto (conforme tabela abaixo) e 3% para o Sindicato e que o FGTS corresponde a 11% do Salário Bruto,
-// mas não é descontado (é a empresa que deposita). O Salário Líquido corresponde ao Salário Bruto menos os descontos.
+// depende do salário bruto (conforme tabela abaixo) e 3% para o Sindicato e que o FGTS corresponde a 11% do Salário
+// Bruto, mas não é descontado (é a empresa que deposita). O Salário Líquido corresponde ao Salário Bruto menos os
+// descontos.
 // O programa deverá pedir ao usuário o valor da sua hora e a quantidade de horas trabalhadas no mês.
 //Desconto do IR:
 //Salário Bruto até 900 (inclusive) - isento
@@ -17,8 +17,9 @@ package br.com.carlos.estrutura_de_decisao.exercicio12;
 //        Total de descontos              : R$  165,00
 //        Salário Liquido                 : R$  935,00
 
-import java.util.Scanner;
+package br.com.carlos.estrutura_de_decisao.exercicio12;
 
+import java.util.Scanner;
 public class Exercicio12 {
     public static void main(String[] args) {
         Scanner leitor = new Scanner(System.in);
