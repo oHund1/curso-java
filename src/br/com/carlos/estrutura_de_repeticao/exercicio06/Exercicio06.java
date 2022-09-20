@@ -5,4 +5,11 @@
 package br.com.carlos.estrutura_de_repeticao.exercicio06;
 
 public class Exercicio06 {
+    public static void main(String[] args) {
+
+
+            int x;
+            for (x = 0; x <= 20 ; x++)
+                System.out.println(x);
+    }
 }

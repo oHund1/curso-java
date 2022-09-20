@@ -18,16 +18,15 @@ public class Exercicio02 {
         System.out.print("Digite uma senha: ");
         String pass = leitor.next();
 
-//        while (Objects.equals(user, pass)) {
-//            System.out.println("ERRO!! O usuário não pode ser igual a senha, tente novamente");
-//
-//            System.out.print("Digite um usuario: ");
-//            String user = leitor.next();
-//
-//            System.out.print("Digite uma senha: ");
-//            String pass = leitor.next();
-//        }
-//            System.out.println("Cadastro realizado com sucesso!");
+        while (Objects.equals(user, pass)) {
+            System.out.println("ERRO! Digite uma senha diferente do usuario. ");
+
+            System.out.print("Digite um usuario: ");
+            user = leitor.next();
+
+            System.out.print("Digite uma senha: ");
+            pass = leitor.next();
+        }
 
         leitor.close();
 

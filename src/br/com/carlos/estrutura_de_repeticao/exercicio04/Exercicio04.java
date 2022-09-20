@@ -6,5 +6,26 @@
 
 package br.com.carlos.estrutura_de_repeticao.exercicio04;
 
+import java.util.Scanner;
+
 public class Exercicio04 {
+    public static void main(String[] args){
+        Scanner leitor = new Scanner(System.in);
+
+        System.out.println("Ola!");
+
+        int paisA = 80000;
+        int paisB = 200000;
+        int anos = 0;
+
+        while ( paisA <= paisB) {
+            paisA += paisA * 0.03;
+            paisB += paisB * 0.015;
+            anos += 1;
+        }
+
+        System.out.println("O pais A ultrapassa o pais B em " + anos +" anos");
+
+        leitor.close();
+    }
 }

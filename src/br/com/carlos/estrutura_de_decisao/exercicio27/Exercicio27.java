@@ -15,44 +15,48 @@ public class Exercicio27 {
     public static void main(String[] args) {
         Scanner leitor = new Scanner(System.in);
 
+        double preco = 0;
+        double desconto = 0;
+
         System.out.println("Ola!");
-        System.out.print("Digite a quantidade de morangos: ");
-        double morangos = leitor.nextDouble();
+        System.out.print("Digite a quantidade de morangos em kg: ");
+        int quantidadeMorangos = leitor.nextInt();
 
-        double precoMorango1 = morangos * 2.50;
-        double precoMorango2 = morangos * 2.20;
-
-        System.out.println("Digite a quantidade de macas: ");
-        double macas = leitor.nextDouble();
-
-        double precoMacas1 = macas * 1.80;
-        double precoMacas2 = macas * 1.50;
-
-        double quantidadeTotal = morangos + macas;
-
-        System.out.println("A quantidade de morangos foi de: " + morangos +
-                " e a quantidade de macas foi de: " + macas);
-
-        if (morangos < 5) {
-            double precoFinalMorango = precoMorango1;
+        if (quantidadeMorangos <= 5) {
+            preco = 2.5 * quantidadeMorangos;
         } else {
-            double precoFinalMorango = precoMorango2;
+            preco = 2.2 * quantidadeMorangos;
         }
 
-        if (macas < 5) {
-            double precoFinalMacas = precoMacas1;
+        System.out.print("Digite a quantidade de macas em kg: ");
+        int quantidadeMacas = leitor.nextInt();
+
+        if (quantidadeMacas <= 5) {
+            preco = 1.8 * quantidadeMacas;
         } else {
-            double precoFinalMacas = precoMacas2;
+            preco = 1.50 * quantidadeMacas;
         }
 
-        // double precoTotal = precoFinalMorango + precoFinalMacas;
-        // if (precoTotal > 25 or quantidadeTotal > 8) {
-        // double precoComDesconto = precoTotal - 0.10;
-        // System.out.println("O preco final foi de: " + precoComDesconto + " reais.")
-        // } else {
-        // System.out.println("O preco final foi de: " + precoTOtal + " reais.")
+        int quantidadeTotal = quantidadeMacas + quantidadeMorangos;
+
+       if (quantidadeTotal > 28) {
+           desconto = 0.1;
+       } else if (preco >= 25) {
+           desconto = 0.1;
+       } else {
+           desconto = 0;
+       }
+
+       double descontoTotal = preco * desconto;
+       double precoTotal = preco - descontoTotal;
+
+        System.out.println("QUANTIDADE MORANGOS: " + quantidadeMorangos + " kg");
+        System.out.println("QUANTIDADE MACAS: " + quantidadeMacas + " kg");
+        System.out.println("O TOTAL A SER PAGO E DE: " + precoTotal + " reais");
 
         leitor.close();
 
     }
 }
+
+
